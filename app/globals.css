@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  @apply bg-gradient-to-r from-[#E9CE6E]  to-[#B3873A];
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent gradient;
+}
+
+/* defining font family  */
+@font-face {
+  font-family: "Cinzel"; /* Ensure consistency */
+  src: url("/fonts/Cinzel-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cinzel Decorative"; /* Ensure consistency */
+  src: url("/fonts/CinzelDecorative-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans"; /* Ensure consistency */
+  src: url("/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat"; /* Ensure consistency */
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* h1 {
+  @apply text-[40px] md:text-[50px] lg:text-[60px] font-Cinzel bg-clip-text text-transparent gradient;
+} */
+
+.top-1\/2 {
+  top: 66%;
+}
+
